@@ -7,8 +7,7 @@ pipeline {
              }
              steps {
                  sh '''
-                    sudo su jenkins
-                    ls -l
+                    ssh jenkins@192.168.1.35 ls -l
                  '''
                  echo 'Deploying to dev from the develop branch.'
              }
