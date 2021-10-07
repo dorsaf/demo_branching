@@ -7,7 +7,7 @@ pipeline {
              }
              steps {
                  sh '''
-                    ssh jenkins@192.168.1.35 ls -l
+                    ssh vagrant@127.0.0.1 -p 2201 ls -l /bin
                  '''
                  echo 'Deploying to dev from the develop branch.'
              }
