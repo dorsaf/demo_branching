@@ -1,11 +1,6 @@
 pipeline {
     agent any
     stages {
-        stage('Checkout') {
-            steps {
-                echo 'Checkout...'
-            }
-        }
         stage('Deploy - Development') {
              when {
                  branch 'develop'
