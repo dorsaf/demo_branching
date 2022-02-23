@@ -20,6 +20,4 @@ print('test 17')
 print('test 18')
 print('test 19')
 print('test 20')
-
-
 print('test 21')
