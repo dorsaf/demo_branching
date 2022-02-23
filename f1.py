@@ -29,8 +29,7 @@ print('test 26')
 print('test 26')
 ddd
 dddsjjj
-sss
-hhh
+sssjjjj
 ppp666
 dd
 
